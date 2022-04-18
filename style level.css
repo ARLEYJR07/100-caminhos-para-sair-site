@@ -1,0 +1,44 @@
+main{
+text-align: center;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+margin: 0px;
+}
+body{
+   background-color: #000;
+   background-attachment: fixed;
+   overflow-y: scroll;
+   background-size: auto;
+   text-shadow: 1px 1px 10px #000, 1px 1px 10px #000;
+}
+.header {
+	width: 100%;
+	padding: 5px;
+}
+ input {
+   padding: 5px;
+   color: white;
+   border: 1px solid rgb(173, 0, 0);
+   font-family: Arial;
+   background: none;
+   
+}
+
+
+header{
+  margin-right: 1px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.right{
+  text-align: right;
+}
+#teste{
+  margin-top: 700px;
+  margin-right: auto;
+  margin-left: 1000px;
+
+border-top: rgb(167, 0, 0) 1000px;
+
+}

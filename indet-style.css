@@ -1,0 +1,46 @@
+main{
+text-align: center;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+
+
+
+
+
+}
+body{
+   background-image: url(images/fundo\ editar3.png);
+   background-attachment: fixed;
+   overflow-y: scroll;
+   background-size: auto;
+   text-shadow: 1px 1px 10px #000, 1px 1px 10px #000;
+ 
+   
+    
+
+}
+.glow{
+   text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+
+}
+@-webkit-keyframes glow {
+   from {
+     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60000, 0 0 40px #e60000, 0 0 50px #e60000, 0 0 60px #e60000, 0 0 70px #e60000;
+   }
+   
+   to {
+     text-shadow: 0 0 20px #fff, 0 0 30px #ff4d4d, 0 0 40px #ff4d4d, 0 0 50px #ff4d4d, 0 0 60px #ff4d4d, 0 0 70px #ff4d4d, 0 0 80px #ff4d4d;
+   }
+ }
+ 
+ input {
+   padding: 5px;
+   color: white;
+   border: 1px solid rgb(126, 0, 0);
+   font-family: Arial;
+   background: none;
+   margin-top: 100px;
+}
